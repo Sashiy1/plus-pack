@@ -23,3 +23,43 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+.container {
+  height: 3000px;
+  background-color:  #fff;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+  .container {
+    
+    background-color: #347aeb;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px) {
+  .container {
+    
+    background-color: #242424;
+  }
+}
+
