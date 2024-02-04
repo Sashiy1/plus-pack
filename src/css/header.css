@@ -1,8 +1,15 @@
 /* !!! MOBILE !!! */
 
 .header {
-  padding: 20px 60px;
-  padding-right: 20px;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff; /* You can customize the background color */
+  z-index: 1000; /* Adjust z-index as needed to ensure it appears above other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+
   /* background-color: #747bff; */
 }
 
@@ -10,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav-list {
@@ -38,6 +46,8 @@
 
 .burger-menu {
   display: none;
+  padding-right: 60px;
+  
 }
 
 .burger-list {
@@ -48,9 +58,13 @@
   width: 100%;
 }
 
+.showMenu {
+  display: flex;
+}
+
 .burger-item {
   font-family: inherit;
-  
+
   font-size: x-large;
   color: gray;
   border-bottom: solid 1px gainsboro;
@@ -102,13 +116,12 @@
   stroke-width: 6;
 }
 
-.showMenu {
-  display: flex;
-}
-
 /* !!! TABLET !!! */
 
 @media (min-width: 600px) {
+  .header {
+    padding: 20px 80px;
+  }
 }
 
 /* !!! DESCKTOP  !!! */
