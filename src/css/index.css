@@ -1,16 +1,8 @@
 .first-container {
-    min-height: 100vh;
-    position: relative;
-    margin-top: 90px;
-    transition:  margin-top 0.5s ease; 
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    
-
-  }
+  margin-top: 90px;
+}
   .moveContainer {
-    margin-top: 297px;
+    margin-top: 275px;
   }
 
   .film-container {
@@ -18,7 +10,7 @@
     position: relative;
     margin-top: 90px;
     transition:  margin-top 0.5s ease; 
-    background-color: green;
+
     display: flex;
     justify-content: center;
   }
@@ -36,8 +28,6 @@
 
 
 @media (min-width: 1000px) {
-    .first-container {
-        margin-top: 97px;
-    }
+
     
 }
