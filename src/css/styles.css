@@ -5,7 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-
+@import url('./index.css');
 @import url('./header.css');
 
 :root {
@@ -27,12 +27,9 @@
 
 .container {
   height: 3000px;
-  background-color: blueviolet;
+
+  /* background-color: blueviolet; */
 }
-
-
-
-
 
 
 
@@ -43,16 +40,6 @@
     background-color: blueviolet;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

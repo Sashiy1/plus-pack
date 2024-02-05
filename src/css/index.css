@@ -1,0 +1,43 @@
+.first-container {
+    min-height: 100vh;
+    position: relative;
+    margin-top: 90px;
+    transition:  margin-top 0.5s ease; 
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+  .moveContainer {
+    margin-top: 297px;
+  }
+
+  .film-container {
+    min-height: 100vh;
+    position: relative;
+    margin-top: 90px;
+    transition:  margin-top 0.5s ease; 
+    background-color: green;
+    display: flex;
+    justify-content: center;
+  }
+
+.main-film {
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+
+@media (min-width: 1000px) {
+    .first-container {
+        margin-top: 97px;
+    }
+    
+}

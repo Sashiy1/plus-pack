@@ -3,7 +3,7 @@
 .header {
   padding: 20px 20px;
   padding-left: 40px;
-  margin-left: 8px;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -50,10 +50,9 @@
   right: +100%;
   /* padding-right: 60px; */
   background-color: #fff;
-  transition: left 1s ease;
-  transition: right 1s ease;
-  margin-left: 8px;
-  margin-right: 8px;
+  transition: left 0.5s ease;
+  transition: right 0.5s ease;
+  
   
   /* margin-left: 0px; */
   
@@ -66,13 +65,14 @@
   gap: 20px;
   padding-left: 40px;
   padding-right: 60px;
+  margin-bottom: 30px;
 }
 
 .showMenu {
   left: 0; 
   right: 0;
   
-  /* margin-left: 8px; */
+
   
 }
 
